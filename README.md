@@ -1,0 +1,3 @@
+The DreamCatcher app will consist of a single activity with two fragments to form a list-detail interface. The DreamListFragment is a screen with a scrollable list containing a brief summary of every dream. The DreamDetailFragment is a screen where the user can view and update the details of a single dream.
+
+In this first part of the project, the main objective is to create these two main screens as fragments, hosted by a single simple activity. The activity will host one full-screen fragment at a time, and at the end of this part there will be no mechanism yet to navigate from either fragment to the other. Thus switching between fragments will require manually updating the activity's layout file and relaunching the app.
